@@ -1,0 +1,290 @@
+body{
+    background: #ecebe4;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#logo{
+    width: 6%;
+    margin: 15px 0 0 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 60%;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.textField{
+    border: none;
+    width: 90%;
+    height: 600px;
+    margin: 15px 0;
+    font-size: 32px;
+    resize: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+#inText{
+    width: 50%;
+}
+
+::placeholder{
+    color:gray;
+}
+
+.caution{
+    width: 50%;
+    padding: 0 0 16px;
+    font-size: 12px;
+    font-family: 'IBM Plex Mono';
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#encrypt{
+    background: #595959;
+    color: white;
+
+}
+
+
+.box2{
+    border: none;
+    border-radius: 50px;
+    width: 30%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #595959;
+    color: white;
+    
+}
+
+.shown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.shown img{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.shownMessages{
+    width: 100%;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;;
+}
+
+.m1{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.m2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hiden{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result{
+    color: white;
+}
+
+.buttons{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0 10px;
+    font-size: 16px;
+    color: black;
+    background: none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#copy{
+    color: white;
+    border-color: white;
+}
+
+@media screen and (max-width: 860px){
+
+    #logo {
+        width: 12%;
+        margin: 25px 0 0 70px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    #inText{
+        width: 80%;
+        height: 700px;
+    }
+
+    .caution{
+        font-size: 14px;
+        width: 90%;
+        padding: 0;
+    }
+
+    .btnBox{
+        width: 94%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .buttons{
+        width: 45%;
+        height: 65px;
+        margin: 15px 19px;
+    }
+
+    .box2{
+        width: 90%;
+        height: fit-content;
+        justify-content: center;
+    }
+
+    .shownMessages{
+        width: 100%;
+        padding: 65px 0;
+    }
+
+    .shown img{
+        display: none;
+    }
+
+    .m1{
+        font-size: 24px;
+    }
+
+    .m2{
+        font-size: 16px;
+    }
+
+    .textField{
+        width: 90%;
+        height: 186px;
+    }
+    .hiden{
+        width: 90%;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #logo{
+        width: 15%;
+        margin: 10px 0 0 30px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 430px;
+        align-items: center;
+        justify-content: center;
+    }
+    #inText{
+        width: 80%;
+        height: 400px;
+    }
+
+    .caution{
+        width: 90%;
+        padding: 0 0 10px;
+    }
+
+    .btnBox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttons{
+        width: 90%;
+        height: 55px;
+        margin: 0 0 5px;
+    }
+
+    .box2{
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        margin: 10px 0 0;
+    }
+
+    .shown img{
+        display: none;
+    }
+
+    .shownMessages{
+        padding: 30px 0;
+    }
+
+    .textField{
+        width: 90%;
+        height: 186px;
+    }
+    .hiden{
+        width: 90%;
+        height: 186px;
+    }
+
+    
+    
+}
+
